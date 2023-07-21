@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_line -function that prints a straight line
-* @n: amount of times to print
+* print_line - print line with _ n times
+* @n: no of times to print _
 */
 
 void print_line(int n)
@@ -13,5 +13,5 @@ for (; a <= n && n >= 1)
 {
 _putchar('_');
 }
-_putchar('\n);/*new line*/
+_putchar('\n);
 }
