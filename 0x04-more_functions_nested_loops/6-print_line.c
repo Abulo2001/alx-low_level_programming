@@ -13,5 +13,5 @@ for (; a <= n && n >= 1)
 {
 _putchar('_');
 }
-_putchar('\n);
+_putchar('\n');
 }
