@@ -9,16 +9,16 @@
 
 
 char *_strcpy(char *dest, char *src)
- {
-    char *dest_start = dest;
+{
+char *dest_start = dest;
 
-    while (*src != '\0')
- {
-        *dest = *src;
-        dest++;
-        src++;
-    }
+while (*src != '\0')
+{
+*dest = *src;
+dest++;
+src++;
+}
 
-    *dest = '\0'; /* Add the null terminator to the destination buffer*/
-    return dest_start; /* Return the starting address of the destination buffer*/
+*dest = '\0'; /* Add the null terminator to the destination buffer*/
+return dest_start; /* Return the starting address of the destination buffer*/
 }
