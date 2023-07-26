@@ -10,9 +10,8 @@
 
 char *_strcpy(char *dest, char *src)
  {
-    char *dest_start = dest; // Store the starting address of the destination buffer
+    char *dest_start = dest;
 
-    // Copy characters from src to dest until the null terminator is encountered
     while (*src != '\0')
  {
         *dest = *src;
@@ -20,6 +19,6 @@ char *_strcpy(char *dest, char *src)
         src++;
     }
 
-    *dest = '\0'; // Add the null terminator to the destination buffer
-    return dest_start; // Return the starting address of the destination buffer
+    *dest = '\0'; /* Add the null terminator to the destination buffer*/
+    return dest_start; /* Return the starting address of the destination buffer*/
 }
