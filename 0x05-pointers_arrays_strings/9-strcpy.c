@@ -20,5 +20,5 @@ src++;
 }
 
 *dest = '\0'; /* Add the null terminator to the destination buffer*/
-return dest_start; /* Return the starting address of the destination buffer*/
+return (dest_start); /* Return the starting address of the destination buffer*/
 }
